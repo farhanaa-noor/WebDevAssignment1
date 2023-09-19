@@ -1,5 +1,6 @@
 body {
     background-color: rgb(235, 229, 237);
+    margin-bottom: 60px;
   }
   
   h1 {
@@ -25,19 +26,30 @@ body {
    
 
   }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: grid;
-    align-items: center;
+
+  .columnhome {
+    margin-left: 80px;
+    float: left;
+    width: 30%;
+    border: 1px solid #ccc;
   }
+  
   /*second pages*/
   .navbar {
     width: 100%;
     background-color: #de73b9;
     overflow: auto;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .home{
+    font-family: "Home", sans-serif;
+    font-size: large;
+    margin-right: 20px;
+  }
+  .homecaption{
+    font-family: "Home", sans-serif;
+    font-size: large;
   }
   table, th, td {
     border:1px solid black;
