@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(235, 229, 237);
+  }
+  
+  h1 {
+    color: rgb(116, 12, 116);
+    text-align: center;
+    margin-top: 60px;
+    
+  }
+
+  p {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  .column {
+    margin-left: 80px;
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+   
+
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: grid;
+    align-items: center;
+  }
+  /*second pages*/
+  .navbar {
+    width: 100%;
+    background-color: #de73b9;
+    overflow: auto;
+  }
+  table, th, td {
+    border:1px solid black;
+  }
